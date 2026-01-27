@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: MultiplyFloatSubGraph
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"IN","label":"Trigger
+      Input","summary":"\t\t","hideLabel":false}],"controlOutputDefinitions":[{"key":"OUT","label":"Trigger
+      Output","summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":0.0,"$type":"System.Single"},"_type":"System.Single","key":"NumToMultiply","label":"Number
+      to multiply","summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":0.0,"$type":"System.Single"},"_type":"System.Single","key":"Multiplier","label":"","summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"System.Single","key":"Product","label":"Result
+      of Multiplication","summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-504.0,"y":-354.0},"guid":"24d3c6d4-aca2-4c11-81bb-bb006c4d447c","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"14"},{"defaultValues":{},"position":{"x":1.0,"y":-351.0},"guid":"6251cbdf-dfd6-48fd-a979-0e11bb7786ea","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"16"},{"defaultValues":{"b":{"$content":1.0,"$type":"System.Single"}},"position":{"x":-209.0,"y":-242.0},"guid":"1bb2850d-d178-492f-a39c-fc4f6ffce90e","$version":"A","$type":"Unity.VisualScripting.ScalarMultiply","$id":"18"},{"sourceUnit":{"$ref":"14"},"sourceKey":"IN","destinationUnit":{"$ref":"16"},"destinationKey":"OUT","guid":"646b6dc1-95eb-4997-858d-1729e4cba2e3","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"NumToMultiply","destinationUnit":{"$ref":"18"},"destinationKey":"a","guid":"c3cb4bad-62f8-4780-88e7-78734609b0e6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Multiplier","destinationUnit":{"$ref":"18"},"destinationKey":"b","guid":"372c2c94-e614-4d23-a994-656322ad8512","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"product","destinationUnit":{"$ref":"16"},"destinationKey":"Product","guid":"88d11b36-3d19-4870-a697-87bd663aa3e3","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
