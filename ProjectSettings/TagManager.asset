@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Item
   - Objective
+  - Ground
   layers:
   - Default
   - TransparentFX
